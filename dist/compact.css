@@ -1,0 +1,20 @@
+@media (max-height:850px) and (min-width:601px),(max-height:950px) and (max-width:600px){
+ .shop{max-width:480px;margin:8px auto;padding:12px 18px 10px}
+ header{padding-bottom:8px}h1{font-size:28px}.eyebrow{font-size:12px}
+ .awning{height:10px;margin-bottom:9px}.stats strong{font-size:21px}
+ .time-track{margin:7px 0 10px}.register{padding:8px 12px 10px}
+ .register-top{margin-bottom:5px}.display{padding:6px 12px}.display strong{font-size:30px}
+ .board-heading{margin:15px 0 7px}.board{gap:7px}
+ .product{padding:4px 1px}.product .emoji{font-size:27px;line-height:1.15}
+ .product .name{margin:1px 0;font-size:12px}.product .price{font-size:15px}
+ .receipt{margin:12px 0 9px;padding:8px 12px}.total strong{font-size:24px}
+ .primary{padding:11px}#notice{padding-top:9px;min-height:28px}footer{padding-top:5px}
+}
+@media(max-width:600px){.shop{margin:0 auto}}
+.audio-controls{display:flex;flex-direction:column;gap:5px;align-items:flex-end}
+.audio-controls button{border:1px solid #d9dfcf;border-radius:20px;padding:5px 9px;background:#fff9eb;font-size:12px;white-space:nowrap;min-height:30px}
+.audio-controls button[aria-pressed="false"]{color:#8a8b7c;background:#eeeade}
+#instructions{max-height:calc(100svh - 28px);overflow:auto}
+#instructions .dialog-inner{padding:24px}#instructions ol{line-height:1.9}
+.help-example{padding:12px;background:#edf3e2;border-radius:12px;font-size:14px}
+.help-example p{margin:6px 0 0;font-size:13px}
