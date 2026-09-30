@@ -1,0 +1,9 @@
+# Local hosting identity and preview captures
+.openai/
+.sites-runtime/
+*-preview.png
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
